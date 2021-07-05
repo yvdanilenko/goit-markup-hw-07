@@ -1,0 +1,14 @@
+.header {
+  border-bottom-color: var(--hr-border-color);
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-page {
+  border-bottom: 1px solid #ececec;
+}
