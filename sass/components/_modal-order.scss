@@ -51,6 +51,10 @@
     border: 1px solid var(--accent-color);
     outline: none;
   }
+
+  &::placeholder {
+    color: rgba(117, 117, 117, 0.5);
+  }
 }
 
 .modal-form-group label {
@@ -72,9 +76,6 @@
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-}
-.modal-form-group textarea::placeholder {
-  color: rgba(117, 117, 117, 0.5);
 }
 
 .modal-form-icon {

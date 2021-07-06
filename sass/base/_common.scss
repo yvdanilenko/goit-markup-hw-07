@@ -27,5 +27,5 @@ b {
 .link {
   text-decoration: none;
   color: inherit;
-  transition: color 250ms var(--timing-func);
+  transition: color 250ms var(--transition-timing-function);
 }

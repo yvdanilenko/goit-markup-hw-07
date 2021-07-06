@@ -59,18 +59,13 @@ b {
 .link {
   text-decoration: none;
   color: inherit;
-  transition: color 250ms var(--timing-func);
+  transition: color 250ms var(--transition-timing-function);
 }
 
 body {
   font-family: var(--main-font-family);
   color: var(--main-text-color);
   font-style: var(--main-font-style);
-}
-
-section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .container {
@@ -692,6 +687,10 @@ section {
   margin-right: 50px;
 }
 
+.nav-page__link--current {
+  color: var(--accent-color);
+}
+
 .nav-page__link--current::after {
   position: absolute;
   bottom: -1px;
@@ -731,7 +730,7 @@ section {
 .contacts-list__link {
   position: relative;
   display: flex;
-  text-align: center;
+  align-items: center;
 }
 
 .contacts-list__link:hover, .contacts-list__link:focus {
@@ -863,6 +862,10 @@ section {
   outline: none;
 }
 
+.modal-form-group textarea::placeholder {
+  color: rgba(117, 117, 117, 0.5);
+}
+
 .modal-form-group label {
   font-size: 12px;
   line-height: 1.17;
@@ -881,10 +884,6 @@ section {
   padding-left: 16px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-}
-
-.modal-form-group textarea::placeholder {
-  color: rgba(117, 117, 117, 0.5);
 }
 
 .modal-form-icon {

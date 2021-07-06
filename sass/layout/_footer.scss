@@ -101,10 +101,10 @@
     border: 1px solid var(--accent-color);
     outline: none;
   }
-}
 
-.subscribe-mail__input::placeholder {
-  color: var(--main-text-color);
+  &::placeholder {
+    color: var(--main-text-color);
+  }
 }
 
 .subscribe-button {
